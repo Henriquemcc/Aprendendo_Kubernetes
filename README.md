@@ -1,8 +1,8 @@
 [English Version](README.EN.md)
 
-# Aprendendo _____
+# Aprendendo Kubernetes
 
-Este repositório contém os arquivos desenvolvidos durante o curso online de ____ realizado na plataforma [Alura Cursos Online](https://alura.com.br).
+Este repositório contém os arquivos desenvolvidos durante o curso online de Kubernetes realizado na plataforma [Alura Cursos Online](https://alura.com.br).
 
 ## Repositório Oficial da Alura
 
@@ -14,4 +14,4 @@ Os arquivos oficiais do curso, desenvolvidos pelo instrutor, estão disponíveis
 
 Os cursos em que estes arquivos foram desenvolvidos:
 
-[____](____).
+[Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap).
