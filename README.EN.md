@@ -15,3 +15,20 @@ The official files for the course, developed by the instructor, are available in
 The courses in which these files were developed:
 
 [Kubernetes: Pods, Services and ConfigMaps (Kubernetes: Pods, Services e ConfigMaps)](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap).
+
+## Requirements
+
+To run this project, is necessary to have the following components installed:
+
+- [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
+- [minikube](https://kubernetes.io/docs/tasks/tools/#minikube)
+
+## How to run
+
+To run the Kubernetes' yaml files, follow these steps:
+
+In a Terminal, Command Prompt or PowerShell, run the following command, replacing ```<file-name>``` with the name of the .yml file that you want to execute:
+
+```shell
+kubectl apply -f <file-name>
+```
