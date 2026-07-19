@@ -8,7 +8,7 @@ This repository contains the files developed during the Kubernetes course held o
 
 The official files for the course, developed by the instructor, are available in the GitHub repository of this Alura course:
 
-[____](____).
+[Kubernetes: Pods, Services and ConfigMaps (Kubernetes: Pods, Services e ConfigMaps)](https://github.com/alura-cursos/1846-kubernetes).
 
 ## Courses
 
