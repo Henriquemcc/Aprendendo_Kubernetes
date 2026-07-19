@@ -10,6 +10,8 @@ Os arquivos oficiais do curso, desenvolvidos pelo instrutor, estão disponíveis
 
 [Kubernetes: Pods, Services e ConfigMaps](https://github.com/alura-cursos/1846-kubernetes).
 
+[Kubernetes: Deployments, Volumes e Escalabilidade](https://github.com/alura-cursos/kubernetes-parte2).
+
 ## Cursos
 
 Os cursos em que estes arquivos foram desenvolvidos:
