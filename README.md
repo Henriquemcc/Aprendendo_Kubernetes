@@ -176,3 +176,13 @@ kubectl annotate deployment <NOME-DO-DEPLOYMENT> kubernetes.io/change-cause=<MEN
 ```
 
 E será salvo a mensagem especificada na última revisão do deployment especificado.
+
+#### Desfazendo deployment para uma revisão específica
+
+Para desfazer um deployment para uma revisão específica, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-DEPLOYMENT>``` pelo nome do deployment desejado e ```<NUMERO-REVISAO>``` pelo número da revisão desejada:
+
+```shell
+kubectl rollout undo deployment <NOME-DO-DEPLOYMENT> --to-revision=<NUMERO-REVISAO>
+```
+
+E o deployment será alterado para a versão especificada.
