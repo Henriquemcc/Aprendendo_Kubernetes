@@ -16,6 +16,8 @@ Os cursos em que estes arquivos foram desenvolvidos:
 
 [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap).
 
+[Kubernetes: Deployments, Volumes e Escalabilidade](https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade).
+
 ## Requisitos
 
 Para executar este projeto, é necessário ter os seguintes componentes instalados:
