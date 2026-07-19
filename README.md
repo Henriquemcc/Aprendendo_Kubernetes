@@ -95,7 +95,7 @@ E será listado os pods em execução.
 
 #### Criando um Pod
 
-Para criar um Pod Kubernets, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-POD>``` pelo nome que deseja dar ao Pod e ```<IMAGEM-DO-CONTAINER>``` pela imagem que deseja utilizar para criar o container do Pod:
+Para criar um Pod Kubernetes, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-POD>``` pelo nome que deseja dar ao Pod e ```<IMAGEM-DO-CONTAINER>``` pela imagem que deseja utilizar para criar o container do Pod:
 
 ```shell
 kubectl run <NOME-DO-POD> --image=<IMAGEM-DO-CONTAINER>
