@@ -123,6 +123,14 @@ kubectl edit <NOME-DO-POD>
 
 E será aberto um editor de texto para editar o Pod especificado.
 
+#### Executando comandos dentro de um container de um Pod
+
+Para executar comandos dentro de um container dentro de um Pod, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-POD>``` pelo nome do Pod, ```<NOME-DO-CONTAINER>``` pelo nome do container dentro do Pod, e ```<COMANDO>``` pelo comando que deseja executar:
+
+```shell
+kubectl exec -it <NOME-DO-POD> --container <NOME-DO-CONTAINER> -- <COMANDO>
+```
+
 ### Services
 
 #### Listando Services
