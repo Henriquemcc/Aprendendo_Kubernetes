@@ -89,6 +89,8 @@ Para listar os Pods em execução, em um Terminal, Prompt de Comando ou PowerShe
 kubectl get pods
 ```
 
+E será listado os pods em execução.
+
 #### Criando um Pod
 
 Para criar um Pod Kubernets, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-POD>``` pelo nome que deseja dar ao Pod e ```<IMAGEM-DO-CONTAINER>``` pela imagem que deseja utilizar para criar o container do Pod:
@@ -118,6 +120,18 @@ kubectl edit <NOME-DO-POD>
 ```
 
 E será aberto um editor de texto para editar o Pod especificado.
+
+### Services
+
+#### Listando Services
+
+Para listar os services em execução, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando:
+
+```shell
+kubectl get services
+```
+
+E será listado os serviços em execução.
 
 ### Arquivos YAML
 
