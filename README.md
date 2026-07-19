@@ -159,17 +159,17 @@ E será deletado o recurso gerado a partir do arquivo de configuração especifi
 
 #### Visualizando o histórico de deployment
 
-Para visualizar o histórico de um Deployment, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DEPLOYMENT>``` pelo nome do deployment desejado:
+Para visualizar o histórico de um Deployment, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-DEPLOYMENT>``` pelo nome do deployment desejado:
 
 ```shell
-kubectl rollout history deployment <NOME-DEPLOYMENT>
+kubectl rollout history deployment <NOME-DO-DEPLOYMENT>
 ```
 
 E será exibido o histórico do Deployment especificado.
 
 #### Nomeando uma revisão do histórico de um deployment
 
-Para nomear uma revisão do histórico de um deployment, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DEPLOYMENT>``` pelo nome do deployment desejado e ```<MENSAGEM>``` pela mensagem desejada:
+Para nomear uma revisão do histórico de um deployment, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DO-DEPLOYMENT>``` pelo nome do deployment desejado e ```<MENSAGEM>``` pela mensagem desejada:
 
 ```shell
 kubectl annotate deployment <NOME-DO-DEPLOYMENT> kubernetes.io/change-cause=<MENSAGEM>
