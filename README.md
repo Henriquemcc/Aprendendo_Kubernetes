@@ -71,6 +71,14 @@ minikube delete
 
 E o cluster Kubernetes será deletado.
 
+#### Acessar o shell do Minikube
+
+Para acessar o shell do Minikube, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando:
+
+```shell
+minikube ssh
+```
+
 ### Node
 
 #### Listando Nodes
