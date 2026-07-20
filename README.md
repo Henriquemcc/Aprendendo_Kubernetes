@@ -79,6 +79,26 @@ Para acessar o shell do Minikube, em um Terminal, Prompt de Comando ou PowerShel
 minikube ssh
 ```
 
+#### Listar extensões do Minikube
+
+Para listar as extensões do Minikube, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando:
+
+```shell
+minikube addons list
+```
+
+E será listadas todas as extensões e suas respectivas informações.
+
+#### Habilitar extensão do Minikube
+
+Para habilitar uma extensão do Minikube, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<NOME-DA-EXTENSAO>``` pelo nome da extensão que deseja habilitar:
+
+```shell
+minikube addons enable <NOME-DA-EXTENSAO>
+```
+
+E a extensão será habilitada.
+
 ### Node
 
 #### Listando Nodes
