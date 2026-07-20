@@ -224,3 +224,23 @@ kubectl rollout undo deployment <NOME-DO-DEPLOYMENT> --to-revision=<NUMERO-REVIS
 ```
 
 E o deployment será alterado para a versão especificada.
+
+### Persistent Volumes
+
+#### Listando os Persistent Volumes
+
+Para listar os Persistent Volumes, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando:
+
+```shell
+kubectl get pv
+```
+
+### Persistent Volume Claim
+
+#### Listando os Persistent Volume Claims
+
+Para listar os Persistent Volume Claims, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando:
+
+```shell
+kubectl get pvc
+```
