@@ -20,6 +20,8 @@ The courses in which these files were developed:
 
 [Kubernetes: Deployments, Volumes, and Scalability (Kubernetes: Deployments, Volumes e Escalabilidade)](https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade).
 
+[Kubernetes: Practicing and Securing an Application with LivenessProbe (Kubernetes: Praticando e garantido uma aplicação com LivenessProbe)](https://cursos.alura.com.br/course/kubernetes-praticando-garantido-aplicacao-livenessprobe).
+
 ## Requirements
 
 To run this project, is necessary to have the following components installed:

@@ -20,6 +20,8 @@ Os cursos em que estes arquivos foram desenvolvidos:
 
 [Kubernetes: Deployments, Volumes e Escalabilidade](https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade).
 
+[Kubernetes: Praticando e garantido uma aplicação com LivenessProbe](https://cursos.alura.com.br/course/kubernetes-praticando-garantido-aplicacao-livenessprobe).
+
 ## Requisitos
 
 Para executar este projeto, é necessário ter os seguintes componentes instalados:
