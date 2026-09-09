@@ -1,0 +1,3 @@
+[submodule "API-Voll.Med/Projeto_Base"]
+	path = API-Voll.Med/Projeto_Base
+	url = https://github.com/alura-cursos/Kubernetes-Pratica.git
