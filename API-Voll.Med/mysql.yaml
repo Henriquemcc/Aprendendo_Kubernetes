@@ -7,6 +7,7 @@ metadata:
 spec:
   ports:
     - port: 3306
+      name: mysql
   clusterIP: None
   selector:
     app: mysql
@@ -36,6 +37,17 @@ spec:
           volumeMounts:
             - name: mysql-storage
               mountPath: /var/lib/mysql
+          env:
+          - name: MYSQL_DATABASE
+            valueFrom:
+              configMapKeyRef:
+                name: dados
+                key: DB_DATABASE
+          - name: MYSQL_ROOT_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: senhas
+                key: DB_PASSWORD          
           volumes:
             - name:
               persistentVolumeClaim:
