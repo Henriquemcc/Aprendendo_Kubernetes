@@ -48,10 +48,10 @@ spec:
               secretKeyRef:
                 name: senhas
                 key: DB_PASSWORD          
-          volumes:
-            - name:
-              persistentVolumeClaim:
-                claimName: mysql-pvc
+      volumes:
+      - name: mysql-storage
+        persistentVolumeClaim:
+          claimName: mysql-pvc
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
