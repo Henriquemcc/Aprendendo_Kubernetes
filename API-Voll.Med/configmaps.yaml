@@ -4,6 +4,6 @@ metadata:
   name: dados
 data:
   DB_DATABASE: "testemed"
-  DB_HOST: ""
+  DB_HOST: "mysql"
 
 
