@@ -34,17 +34,12 @@ spec:
           ports:
             - containerPort: 3306
           volumeMounts:
-            - name: www
-              mountPath: /usr/share/nginx/html
-    volumeClaimTemplates:
-      - metadata:
-          name: www
-        spec:
-          accessModes: [ "ReadWriteOnce" ]
-          storageClassName: "my-storage-class"
-          resources:
-            requests:
-              storage: 1Gi
+            - name: mysql-storage
+              mountPath: /var/lib/mysql
+          volumes:
+            - name:
+              persistentVolumeClaim:
+                claimName: mysql-pvc
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
