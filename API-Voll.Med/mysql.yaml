@@ -48,6 +48,14 @@ spec:
               secretKeyRef:
                 name: senhas
                 key: DB_PASSWORD          
+          livenessProbe:
+            exec:
+              command:
+                - sh
+                - -c
+                - mysqladmin ping -h localhost
+            initialDelaySeconds: 30
+            periodSeconds: 10
       volumes:
       - name: mysql-storage
         persistentVolumeClaim:
