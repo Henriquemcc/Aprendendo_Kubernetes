@@ -246,3 +246,13 @@ Para listar os Persistent Volume Claims, em um Terminal, Prompt de Comando ou Po
 ```shell
 kubectl get pvc
 ```
+
+## Informações Adicionais
+
+### Persistent Volume Claim com StorageClassName csi-hostpath-sc no Minikube
+
+Para que o Minikube possa rodar um Persistent Volume Claim com o StorageClassName csi-hostpath-sc, é necessário ativar o complemento 'csi-hostpath-driver'. Dessa forma, basta executar o seguinte comando:
+
+```shell
+minikube addons enable csi-hostpath-driver
+```
