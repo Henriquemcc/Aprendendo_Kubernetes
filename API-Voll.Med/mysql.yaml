@@ -73,3 +73,19 @@ spec:
     requests:
       storage: 8Gi
   storageClassName: csi-hostpath-sc
+  ---
+  apiVersion: batch/v1
+  kind: CronJob
+  metadata:
+    name: mysql-dump
+  spec:
+    schedule: "0 3 * * *"
+    jobTemplate:
+      spec:
+        template:
+          spec:
+            containers:
+            - name: mysql-dump
+              image: leonardodosartorello/mysqldump:v4
+              imagePullPolicy: IfNotPresent
+            restartPolicy: OnFailure
