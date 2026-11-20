@@ -101,6 +101,14 @@ minikube addons enable <NOME-DA-EXTENSAO>
 
 E a extensão será habilitada.
 
+#### Habilitar criptografia de disco
+
+Para habilitar a criptografia de disco, em um Terminal, Prompt de Comando ou PowerShell, execute o seguinte comando, substituindo ```<CAMINHO-ARQUIVO-DE-CRIPTOGRAFIA>``` pelo caminho do arquivo de criptografia que deseja utilizar:
+
+```shell
+minikube start --extra-config=apiserver.encryption-provider-config=<CAMINHO-ARQUIVO-DE-CRIPTOGRAFIA>
+```
+
 ### Node
 
 #### Listando Nodes
